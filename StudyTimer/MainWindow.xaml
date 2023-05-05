@@ -1,0 +1,17 @@
+﻿<Window x:Class="StudyTimer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StudyTimer"
+        mc:Ignorable="d"
+        Title="自习时钟" Height="720" Width="1280" Background="Black">
+    <Grid>
+        <TextBlock Width="1200" Height="240" Background="Black" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" FontSize="100" Text="{Binding Path=TimeText,Mode=TwoWay}" Name="TimeText" FontFamily="{DynamicResource TimeText}"/>
+        <TextBlock Width="1200" Height="75" Background="Black" Foreground="Red"  HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="{DynamicResource TimeText}" TextAlignment="Center" FontSize="72" Text="{Binding Path=TimeText,Mode=TwoWay}" Name="CameraWarning" Margin="0,108,0,0"></TextBlock>
+        <TextBlock Width="1200" Height="36" Background="Black" Foreground="Black"  HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="{DynamicResource TimeText}" TextAlignment="Center" FontSize="36" Text="{Binding Path=TimeText,Mode=TwoWay}" Name="BtnText" Margin="0,490,0,0"></TextBlock>
+        <Button Width="200" Height="75" Margin="540,473,540,157" Name="KillBtn" Click="KillBtn_Click" Background="Red" Foreground="Black"></Button>
+        <TextBlock Width="1200" Height="72" Background="Black" Foreground="Red"  HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="{DynamicResource TimeText}" TextAlignment="Center" FontSize="32" Text="{Binding Path=TimeText,Mode=TwoWay}" Name="ErrorText" Margin="0,592,0,0"></TextBlock>
+        <TextBlock Width="1200" Height="20" Background="Black" Foreground="Gray"  HorizontalAlignment="Center" VerticalAlignment="Top" FontFamily="{DynamicResource TimeText}" TextAlignment="Center" FontSize="16" Text="© FeatherXavier 2023 All rights reserved." Name="Copyright" Margin="0,41,0,0"></TextBlock>
+    </Grid>
+</Window>
