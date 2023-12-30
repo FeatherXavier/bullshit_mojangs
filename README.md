@@ -6,8 +6,10 @@
 ps:本来还想用bugjump来着(<br><br>
 <h2>现在包含的项目:</h2>
 StudyTimer 自习时钟<br>
+NoMoreSeewo+FXEEW 带有地震预警功能的防希沃偷窥小奇葩(<br>
 (没了)<br>
 <br>
+才发现这些项目上传的时候没把NuGet程序包包含进去，所以clone下来之后得先还原一下NuGet包才能编译<br  >
 <h2>这个repo的Licence</h2>
 您可以自由地使用这个repo中的所有代码，但造成的任何后果将由您来承担。<br>
 <h2>The licence of this repo</h2>
