@@ -1,0 +1,21 @@
+﻿<mah:MetroWindow 
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" 
+        x:Class="NoMoreSeewo.EEW"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NoMoreSeewo"
+        mc:Ignorable="d"
+            UseNoneWindowStyle="True"
+        AllowsTransparency="True"
+        Title="EEW" Height="360" Width="640" Topmost="True" Background="Black" ResizeMode="NoResize">
+    <Grid>
+        <TextBox Text="地震先发预警" Background="Transparent" Foreground="White" FontSize="20" Margin="0,0,508,316" FontFamily="Microsoft YaHei UI Bold" BorderBrush="Transparent"></TextBox>
+        <TextBox Name="TimeText" Text="时间" Background="Transparent" Foreground="White" FontSize="20" Margin="188,70,188,247" FontFamily="Microsoft YaHei UI Bold" BorderBrush="Transparent" TextAlignment="Center"/>
+        <TextBox Name="LocationText" Text="位置" Background="Transparent" Foreground="White" FontSize="20" Margin="188,103,188,214" FontFamily="Microsoft YaHei UI Bold" BorderBrush="Transparent" TextAlignment="Center"/>
+        <TextBox Name="Level" Text="震级" Background="Transparent" Foreground="White" FontSize="30" Margin="188,136,188,130" FontFamily="Microsoft YaHei UI Bold" BorderBrush="Transparent" TextAlignment="Center"/>
+        <Button Margin="254,268,254,42" Background="DarkBlue" Click="Button_Click" ></Button>
+        <TextBox Text="确定" Background="Transparent" Foreground="White" FontSize="20" Margin="290,272,290,46" FontFamily="Microsoft YaHei UI Bold" BorderBrush="Transparent" TextAlignment="Center"/>
+    </Grid>
+</mah:MetroWindow>

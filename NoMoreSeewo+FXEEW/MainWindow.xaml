@@ -1,0 +1,17 @@
+﻿<mah:MetroWindow  
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" 
+        x:Class="NoMoreSeewo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NoMoreSeewo"
+        UseNoneWindowStyle="True"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="25" Width="50" Topmost="True" Background="#55000000" ResizeMode="NoResize">
+    <Grid Background="Transparent" Name="ColorGrid">
+        <TextBlock x:Name="LocalInt" FontSize="10" FontFamily="Cascadia Mono SemiBold" Text="" Foreground="White" TextAlignment="Center"></TextBlock>
+    </Grid>
+</mah:MetroWindow>
